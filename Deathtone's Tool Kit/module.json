@@ -1,0 +1,34 @@
+{   
+   "name": "Deathtone's Tool Kit",   
+   "title": "Deathtone's Tool Kit",   
+   "description": "World Building Tool Kit",   
+   "author": "Deathtone",
+   "version": "1.0.0",
+   "minimumCoreVersion": "0.5.0",
+   "compatibleCoreVersion":"0.6.4",
+   "packs": [
+    {
+      "name": "rust-colored-bag-of-tricks",
+      "label": "Rust Colored Bag of Tricks",
+      "path": "Packs/rust-colored-bag-of-tricks.db",
+      "entity": "Actor",
+      "system": "dnd5e",
+      "module": "Deathtone's Tool Kit"
+    },
+    {
+      "name": "zachs-magical-rolltables",
+      "label": "Deathtone's Magical Rolltables",
+      "path": "Packs/zachs-magical-rolltables.db",
+      "entity": "RollTable",
+      "system": "dnd5e",
+      "module": "Deathtone's Tool Kit"
+    },
+    {
+      "name": "zachs-music",
+      "label": "Deathtone's music",
+      "path": "Packs/zachs-music.db",
+      "entity": "Playlist",
+      "module": "Deathtone's Tool Kit"
+    }
+  ]
+ }
